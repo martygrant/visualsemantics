@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#"
+     xml:base="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40"
+     xmlns:box-ontology="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#isAbove -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#isAbove"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#isBelow -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#isBelow"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#isLeftOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#isLeftOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#isRightOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#isRightOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasClassificationConfidence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasClassificationConfidence">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasHeight">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasLabel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasLabel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionX -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionX">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionY -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionY">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasWidth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasWidth">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#Box -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#Box">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasClassificationConfidence"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasHeight"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasLabel"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionX"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionY"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasWidth"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#test -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#test">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#Box"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionX"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <box-ontology:hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</box-ontology:hasPositionX>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#test2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#test2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#Box"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionX"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <box-ontology:hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</box-ontology:hasPositionX>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#ax">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#bx">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#a">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#b">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#ay">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#by">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leftOf</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionX"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#a"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#ax"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                <swrl:arguments rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#ax"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#bx"/>
+                                </swrl:arguments>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionX"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#b"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#bx"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#isLeftOf"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#a"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#b"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">below</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                        <swrl:arguments rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#ay"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#by"/>
+                        </swrl:arguments>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionY"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#a"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#ay"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionY"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#b"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#by"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#isBelow"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#a"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#b"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">above</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionY"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#a"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#ay"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                <swrl:arguments rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#ay"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#by"/>
+                                </swrl:arguments>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionY"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#b"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#by"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#isAbove"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#a"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#b"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If an individual is right of another based on their X coordinates</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rightOf</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                        <swrl:arguments rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#ax"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#bx"/>
+                        </swrl:arguments>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionX"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#a"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#ax"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#hasPositionX"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#b"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#bx"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology#isRightOf"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#a"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#b"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
