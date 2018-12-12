@@ -10,7 +10,7 @@ networkConfig = "yolo/yolov3.cfg"
 networkWeights = "yolo/yolov3.weights"
 classes = "yolo/yolonames.txt"
 detector = Detector(networkConfig, networkWeights, classes)   
-networkTime = detector.processImage("input.png", "output.jpg")
+networkTime = detector.processImage("image3.jpg", "output.jpg")
 overallVisionStopTime = timeit.default_timer()
 
 # Load the ontology file, add new objects to it and execute SWRL rules, save results to same file

@@ -150,9 +150,11 @@ class Detector:
 	# Create a text file with data about each detected object per line
 	def writeDetectionsToFile(self, entities):
 		outputFile = "objects.txt"
+		# Entities will be named like "keyboard2" the number does not mean it is the 2nd detected keyboard but the 2nd detected entity
+		# This is to simply differentiate between objects in Protege of the same class
 		with open(outputFile, 'w') as file:
 			for entity in entities:
-				line = "Entity"
+				line = entity.name
 				line += str(entity.id)
 				line += ","
 				line += entity.name

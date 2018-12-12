@@ -25,7 +25,7 @@ def reason(ontologyFile, objects):
 	print("Name\tLabel\tConf\tX\tY\tWidth\tHeight")
 	for line in file:
 		line = [y.strip() for y in line.split(',')]
-		id = str(line[0])
+		id = line[0]
 		label = line[1]
 		confidence = float(line[2])
 		xpos = float(line[3])
@@ -50,6 +50,7 @@ def reason(ontologyFile, objects):
 					#print(z)
 					print(str(z[0]) + " " + y._name + " " + str(z[1]))
 	"""
+	# Call the Java SWRL program to execute rules in the ontology
 	startTime = timeit.default_timer()
 	command = ["java", "-jar", "swrlapi-example-2.0.5-jar-with-dependencies.jar", ontologyFile]
 	subprocess.call(command) 

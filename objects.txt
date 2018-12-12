@@ -1,0 +1,6 @@
+mouse5,mouse,0.999,638.0,393.0,80,40
+tvmonitor0,tvmonitor,0.997,411.0,196.5,362,239
+keyboard1,keyboard,0.984,361.5,386.0,347,78
+bottle2,bottle,0.967,171.5,370.0,79,252
+banana4,banana,0.956,402.0,438.5,202,53
+banana3,banana,0.862,664.0,358.0,106,50

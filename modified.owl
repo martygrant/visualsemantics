@@ -189,9 +189,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0 -->
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana3 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana3">
         <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Box"/>
         <rdf:type>
             <owl:Restriction>
@@ -229,35 +229,29 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdf:type>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test2"/>
-        <hasClassificationConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.987</hasClassificationConfidence>
-        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</hasHeight>
-        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">car</hasLabel>
-        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">682.5</hasPositionX>
-        <hasPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">334.5</hasPositionY>
-        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</hasWidth>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana4"/>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#bottle2"/>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#keyboard1"/>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#mouse5"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#tvmonitor0"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana4"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#bottle2"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#keyboard1"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#mouse5"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#tvmonitor0"/>
+        <hasClassificationConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.862</hasClassificationConfidence>
+        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</hasHeight>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">banana</hasLabel>
+        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">664.0</hasPositionX>
+        <hasPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">358.0</hasPositionY>
+        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</hasWidth>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1 -->
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana4 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana4">
         <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Box"/>
         <rdf:type>
             <owl:Restriction>
@@ -295,544 +289,262 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdf:type>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test2"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana3"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#bottle2"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#keyboard1"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#mouse5"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#tvmonitor0"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana3"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#mouse5"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#tvmonitor0"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#bottle2"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#keyboard1"/>
+        <hasClassificationConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.956</hasClassificationConfidence>
+        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</hasHeight>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">banana</hasLabel>
+        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">402.0</hasPositionX>
+        <hasPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">438.5</hasPositionY>
+        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</hasWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#bottle2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#bottle2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Box"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasClassificationConfidence"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasHeight"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasLabel"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionX"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasWidth"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana4"/>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#keyboard1"/>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#mouse5"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana3"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#tvmonitor0"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana3"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana4"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#keyboard1"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#mouse5"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#tvmonitor0"/>
+        <hasClassificationConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.967</hasClassificationConfidence>
+        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">252</hasHeight>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bottle</hasLabel>
+        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">171.5</hasPositionX>
+        <hasPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">370.0</hasPositionY>
+        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</hasWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#keyboard1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#keyboard1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Box"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasClassificationConfidence"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasHeight"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasLabel"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionX"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasWidth"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana4"/>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#mouse5"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana3"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#bottle2"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#tvmonitor0"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana3"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana4"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#mouse5"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#tvmonitor0"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#bottle2"/>
+        <hasClassificationConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.984</hasClassificationConfidence>
+        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</hasHeight>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">keyboard</hasLabel>
+        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">361.5</hasPositionX>
+        <hasPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">386.0</hasPositionY>
+        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">347</hasWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#mouse5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#mouse5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Box"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasClassificationConfidence"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasHeight"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasLabel"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionX"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasWidth"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana4"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana3"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#bottle2"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#keyboard1"/>
+        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#tvmonitor0"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana3"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana4"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#bottle2"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#keyboard1"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#tvmonitor0"/>
+        <hasClassificationConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.999</hasClassificationConfidence>
+        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</hasHeight>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mouse</hasLabel>
+        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">638.0</hasPositionX>
+        <hasPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">393.0</hasPositionY>
+        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</hasWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#tvmonitor0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#tvmonitor0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Box"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasClassificationConfidence"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasHeight"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasLabel"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionX"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasWidth"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana3"/>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana4"/>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#bottle2"/>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#keyboard1"/>
+        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#mouse5"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana3"/>
+        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#mouse5"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#banana4"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#bottle2"/>
+        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#keyboard1"/>
         <hasClassificationConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.997</hasClassificationConfidence>
-        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</hasHeight>
-        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">person</hasLabel>
-        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">323.0</hasPositionX>
-        <hasPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">366.5</hasPositionY>
-        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</hasWidth>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Box"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasClassificationConfidence"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasHeight"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasLabel"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionX"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasWidth"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test2"/>
-        <hasClassificationConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.985</hasClassificationConfidence>
-        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</hasHeight>
-        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">person</hasLabel>
-        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">567.5</hasPositionX>
-        <hasPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">377.0</hasPositionY>
-        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</hasWidth>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Box"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasClassificationConfidence"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasHeight"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasLabel"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionX"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasWidth"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test2"/>
-        <hasClassificationConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.993</hasClassificationConfidence>
-        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</hasHeight>
-        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bicycle</hasLabel>
-        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1179.0</hasPositionX>
-        <hasPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">394.0</hasPositionY>
-        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</hasWidth>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4">
-        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Box"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasClassificationConfidence"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasHeight"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasLabel"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionX"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasWidth"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test2"/>
-        <hasClassificationConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.961</hasClassificationConfidence>
-        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</hasHeight>
-        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">car</hasLabel>
-        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">807.5</hasPositionX>
-        <hasPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">255.5</hasPositionY>
-        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</hasWidth>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5">
-        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Box"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasClassificationConfidence"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasHeight"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasLabel"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionX"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasWidth"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test2"/>
-        <hasClassificationConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.939</hasClassificationConfidence>
-        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</hasHeight>
-        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">car</hasLabel>
-        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">718.0</hasPositionX>
-        <hasPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280.0</hasPositionY>
-        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</hasWidth>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6">
-        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Box"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasClassificationConfidence"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasHeight"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasLabel"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionX"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasWidth"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test2"/>
-        <hasClassificationConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.937</hasClassificationConfidence>
-        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</hasHeight>
-        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">car</hasLabel>
-        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">849.0</hasPositionX>
-        <hasPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">279.0</hasPositionY>
-        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</hasWidth>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7">
-        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Box"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasClassificationConfidence"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasHeight"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasLabel"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionX"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasWidth"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isAbove rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isBelow rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test2"/>
-        <hasClassificationConfidence rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.971</hasClassificationConfidence>
-        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</hasHeight>
-        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">car</hasLabel>
-        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">894.0</hasPositionX>
-        <hasPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">299.0</hasPositionY>
-        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</hasWidth>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test">
-        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Box"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasClassificationConfidence"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasHeight"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasLabel"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionX"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionX"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasWidth"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test2"/>
-        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</hasPositionX>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test2 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Box"/>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasClassificationConfidence"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasHeight"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasLabel"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionX"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionX"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasWidth"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdf:type>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity0"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity1"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity2"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity3"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity4"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity5"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity6"/>
-        <isLeftOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#Entity7"/>
-        <isRightOf rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#test"/>
-        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</hasPositionX>
+        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">239</hasHeight>
+        <hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tvmonitor</hasLabel>
+        <hasPositionX rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">411.0</hasPositionX>
+        <hasPositionY rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">196.5</hasPositionY>
+        <hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">362</hasWidth>
     </owl:NamedIndividual>
     
 
@@ -862,68 +574,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#by">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description>
-        <swrl2:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl2:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">above</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#b"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#by"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#a"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#ay"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
-                                        <swrl:arguments rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#ay"/>
-                                            <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#by"/>
-                                        </swrl:arguments>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#isAbove"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#a"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#b"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
     </rdf:Description>
     <rdf:Description>
         <swrl2:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl2:isRuleEnabled>
@@ -1103,6 +753,68 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#isBelow"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#a"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#b"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrl2:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl2:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">above</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#b"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#by"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#hasPositionY"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#a"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#ay"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                        <swrl:arguments rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#ay"/>
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#by"/>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified#isAbove"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#a"/>
                         <swrl:argument2 rdf:resource="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40#b"/>
                     </rdf:Description>
