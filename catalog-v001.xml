@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1544196612410" name="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified" uri="modified.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1544196612410" name="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40" uri="boxontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1544616201052" name="http://www.semanticweb.org/martin/ontologies/2018/9/box-ontology-modified" uri="modified.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1544616201052" name="http://www.semanticweb.org/martin/ontologies/2018/9/untitled-ontology-40" uri="boxontology.owl"/>
     </group>
 </catalog>
